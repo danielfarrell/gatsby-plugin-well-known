@@ -1,0 +1,22 @@
+{
+  "sourceMaps": true,
+  "presets": [
+    [
+      "babel-preset-env",
+      {
+        "loose": true,
+        "debug": false,
+        "useBuiltIns": true,
+        "modules": "commonjs",
+        "targets": {
+          "node": 4.0
+        }
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "ignore": ["__tests__"]
+    }
+  }
+}
