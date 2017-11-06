@@ -1,6 +1,10 @@
 # gatsby-plugin-well-known
 Puts files in a `.well-known` folder after build.
 
+# TURNS OUT THIS PLUGIN ISN'T NEEDED
+
+Gatsby has support for this built in, I just didn't know it. You can use a `static/` folder in your root and those files get copied to public.  In this case, put the files in `static/.well-known` instead of `src/well-known` and you don't need this.
+
 ## Install
 `yarn add gatsby-plugin-well-known`
 
